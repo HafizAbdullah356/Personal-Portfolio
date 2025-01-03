@@ -21,6 +21,21 @@ const testimonialsItem = document.querySelectorAll("[data-testimonials-item]");
 const modalContainer = document.querySelector("[data-modal-container]");
 const modalCloseBtn = document.querySelector("[data-modal-close-btn]");
 const overlay = document.querySelector("[data-overlay]");
+// document.addEventListener("DOMContentLoaded", function() {
+//   let index = 0;
+//   const testimonials = document.querySelectorAll(".testimonials-item");
+//   const testimonialsList = document.querySelector(".testimonials-list");
+  
+//   function autoSlide() {
+//     index++;
+//     if (index >= testimonials.length) {
+//       index = 0; // Reset to the first testimonial when the end is reached
+//     }
+//     testimonialsList.style.transform = `translateX(-${index * 100}%)`;
+//   }
+
+//   setInterval(autoSlide, 3000); // Change testimonial every 3 seconds
+// });
 
 // modal variable
 const modalImg = document.querySelector("[data-modal-img]");

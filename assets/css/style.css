@@ -492,6 +492,41 @@ main {
 /**
  * #service 
  */
+ .service-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  /* border: 1px solid #ddd; */
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-icon-box img {
+  width: 40px;
+  height: auto;
+}
+
+.service-content-box {
+  flex: 1;
+}
+
+.service-item-title {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color:white;
+}
+
+.service-item-text {
+  color: #555;
+  line-height: 1.5;
+}
 
 .service { margin-bottom: 35px; }
 
@@ -541,6 +576,7 @@ main {
  * #testimonials 
  */
 
+ 
 .testimonials { margin-bottom: 30px; }
 
 .testimonials-title { margin-bottom: 20px; }
